@@ -96,6 +96,7 @@ display: flex;
 gap: 25px;
 justify-content: center;
 flex-wrap: wrap;
+
 }
 
 .cards-beneficios {
@@ -121,22 +122,22 @@ text-align: center;
 .p2{
 color: black;
 }
-.texto-extra-escondido{
-color: black;
-display: none;
-}
 
+/* /////////////////////////////////// */
 .texto-extra{
 color: black;
+width: 500px;
 }
 
 .secao{
-text-align: center;
-margin-top: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .escondido{
-display: none;
+    display: none;
+    text-align: left;
 }
 
 .card-claro{
@@ -202,8 +203,66 @@ align-items: center;
 align-content: center;
 text-align: center;
 margin: 0 auto;
+margin-bottom: 30px;
 }
-/* não apaga deixa mais escuro*/
+img{
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.conceito{
+    display: grid;
+    justify-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 835px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.alimento-radioativo{
+    display: grid;
+    justify-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 835px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.matematica{
+    display: grid;
+    justify-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 835px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cabecalho {
 position: absolute;
 inset: 0;

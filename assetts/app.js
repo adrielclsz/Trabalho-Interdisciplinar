@@ -6,12 +6,34 @@ const btn = document.getElementById("mudar-tema");
 const header = document.querySelector("header");
 
 
-btnVerMais.addEventListener("click", () => {
-textoExtra.classList.toggle("escondido");
+// btnVerMais.addEventListener("click", () => {
+// textoExtra.classList.toggle("escondido");
+// textoExtra,classList.toggle("escondido2");
 
-btnVerMais.textContent = textoExtra.classList.contains("escondido")
-? "Ver mais"
-: "Ver menos";
+// btnVerMais.textContent = textoExtra.classList.contains("escondido")
+// btnVerMais.textContent = textoExtra.classList.contains("escondido2")
+
+// ? "Ver mais"
+// : "Ver menos";
+// });
+
+document.querySelectorAll(".btn-vermais").forEach(botao => {
+
+    botao.addEventListener("click", () => {
+
+        // Pega o texto logo DEPOIS do botão
+        const texto = botao.nextElementSibling;
+
+        // Alternar visibilidade
+        if (texto.classList.contains("escondido")) {
+            texto.classList.remove("escondido");
+            botao.textContent = "Ver menos";
+        } else {
+            texto.classList.add("escondido");
+            botao.textContent = "Ver mais";
+        }
+    });
+
 });
 
 
