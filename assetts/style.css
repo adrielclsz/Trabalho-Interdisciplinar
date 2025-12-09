@@ -177,7 +177,7 @@ outline: none;
 /* Principal com background fixo */
 .principal {
 height: 100vh;
-background: url('img/radio.webp') center/cover no-repeat fixed;
+background: url('img/radio.jpeg') center/cover no-repeat fixed;
 position: relative;
 display: flex;
 align-items: center;
